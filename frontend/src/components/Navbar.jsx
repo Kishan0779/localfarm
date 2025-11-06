@@ -23,6 +23,8 @@ export default function Navbar() {
   } else if (user && user.role === "customer") {
     links.push({ name: "Orders", path: "/orders" });
     links.push({ name: "Cart", path: "/cart" });
+  } else if (user && user.role === "admin") {
+    links.push({ name: "Dashboard", path: "/admin/dashboard"})
   }
 
   return (
