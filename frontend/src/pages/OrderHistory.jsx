@@ -117,8 +117,6 @@ export default function OrderHistory() {
                       </p>
                       <p className="text-sm text-gray-500">
                         {item.quantity} × ₹{item?.productId ? item.productId.price : 0}
-                        <>{console.log(item)
-                        }</>
                       </p>
                     </div>
                     <p className="text-primary font-semibold">
