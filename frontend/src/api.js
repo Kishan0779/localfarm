@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const API = axios.create({
-  baseURL: 'http://localfarm-backend-app.vercel.app/api',
+  baseURL: 'https://localfarm-backend-app.vercel.app/api',
 });
 
 API.interceptors.request.use((config) => {
